@@ -1,54 +1,44 @@
-# React + TypeScript + Vite
+# Fleet Vision Group
+<p>
+  Fleet Vision Group is a modern web application for car rentals and car dealership services, built with React. The platform allows users to explore available vehicles, book     rentals, and manage their fleet offering a seamless experience for both customers and car dealers.
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Installation
+```
+git clone https://github.com/yourusername/fleet-vision-group.git
+cd fleet-vision-group
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+## Running the App
 ```
+npm run dev
+```
+
+## Features
+Car Rental Booking – Browse, filter, and rent vehicles with ease.
+
+🚘 Car Dealership Listings – Add, manage, and showcase vehicles for sale.
+
+🔍 Advanced Search & Filters – Filter cars by category, price, availability, and more.
+
+🧾 Booking Management – Track and manage current and past bookings.
+
+👤 User Authentication – Secure login and registration for customers and dealers.
+
+🧑‍💼 Dealer Dashboard – Tools for dealers to manage listings and view insights.
+
+📱 Responsive Design – Fully optimized for mobile, tablet, and desktop.
+
+
+## Tech Stack
+- Frontend: React
+- React Router
+- Tailwind CSS
+- Shadcn
+  
+ ## Author
+Tresor Manzi
+Junior Developer | Rwanda 🇷🇼
+
+
