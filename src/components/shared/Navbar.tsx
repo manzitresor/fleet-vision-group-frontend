@@ -10,14 +10,14 @@ export default function Navbar() {
           </h1>
         </div>
         <div className="col-span-3 bg-white flex justify-between px-5 py-3">
-          <ul className="flex gap-4 text-lg text-black">
+          <ul className="flex gap-4 text-base text-black">
             <li>Home</li>
             <li>About</li>
             <li>Booking</li>
             <li>Cars</li>
             <li>Contacts</li>
           </ul>
-          <button className="bg-main-orange py-2 px-4 rounded-md text-white">Login</button>
+          <button className="bg-main-orange py-2 px-4 rounded-md text-white text-base">Login</button>
         </div>  
     </div>
   )
