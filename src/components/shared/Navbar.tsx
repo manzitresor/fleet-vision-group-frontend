@@ -1,4 +1,5 @@
 import { FaCar } from "react-icons/fa";
+import { Button } from "../ui/button";
 
 export default function Navbar() {
   return (
@@ -11,13 +12,13 @@ export default function Navbar() {
         </div>
         <div className="col-span-3 bg-white flex justify-between px-5 py-3">
           <ul className="flex gap-4 text-base text-black">
-            <li>Home</li>
-            <li>About</li>
-            <li>Booking</li>
-            <li>Cars</li>
-            <li>Contacts</li>
+            <li className="hover:text-main-orange cursor-pointer">Home</li>
+            <li className="hover:text-main-orange cursor-pointer">About</li>
+            <li className="hover:text-main-orange cursor-pointer">Booking</li>
+            <li className="hover:text-main-orange cursor-pointer">Cars</li>
+            <li className="hover:text-main-orange cursor-pointer">Contacts</li>
           </ul>
-          <button className="bg-main-orange py-2 px-4 rounded-md text-white text-base">Login</button>
+          <Button className="bg-main-orange py-2 px-4 rounded-md text-white text-base">Login</Button>
         </div>  
     </div>
   )
