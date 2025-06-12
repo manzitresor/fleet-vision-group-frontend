@@ -1,5 +1,6 @@
 import { FaCar } from "react-icons/fa";
 import { Button } from "../ui/button";
+import { ThemeToggle } from "../theme-toggle";
 
 export default function Navbar() {
   return (
@@ -10,15 +11,21 @@ export default function Navbar() {
             Fleet vision  Group
           </h1>
         </div>
-        <div className="col-span-3 bg-white flex justify-between px-5 py-3">
-          <ul className="flex gap-4 text-base text-black">
+        <div className="col-span-3 bg-white dark:bg-gray-900 flex justify-between px-5 py-3">
+          <ul className="flex gap-4 text-base text-black dark:text-white">
             <li className="hover:text-main-orange cursor-pointer">Home</li>
             <li className="hover:text-main-orange cursor-pointer">About</li>
             <li className="hover:text-main-orange cursor-pointer">Booking</li>
             <li className="hover:text-main-orange cursor-pointer">Cars</li>
             <li className="hover:text-main-orange cursor-pointer">Contacts</li>
+            <li className="">Contacts</li>
           </ul>
-          <Button className="bg-main-orange py-2 px-4 rounded-md text-white text-base">Login</Button>
+          <div className="flex items-center gap-3">
+            <ThemeToggle />
+            <Button className="bg-main-orange py-2 px-4 rounded-md text-white text-base hover:bg-main-orange/90">
+              Login
+            </Button>
+          </div>
         </div>  
     </div>
   )
