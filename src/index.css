@@ -3,6 +3,13 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+  --color-main-orange: #FE8400;
+  --color-light-orange: #FFE4C6;
+  --color-dark-gray: #575757;
+  --color-light-gray: #C4C4C4;
+}
+
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);

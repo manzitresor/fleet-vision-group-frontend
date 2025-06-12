@@ -1,10 +1,11 @@
+import Navbar from "./components/shared/Navbar"
+import LandingPage from "./page/LandingPage"
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <Navbar/>
+      <LandingPage/>
     </>
   )
 }
