@@ -3,10 +3,10 @@ import HeroCar from '../assets/Main Picture 1.svg'
 
 export default function HeroSection() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-5 h-screen relative ">
+    <div className="grid grid-cols-1 lg:grid-cols-5 h-screen relative ">
       <div className="col-span-2 bg-black">
-          <div className="hidden md:block md:absolute inset-0 bg-black opacity-20 w-1/2 h-2/3 top-8"></div>
-          <div className='static md:absolute md:left-14 md:w-1/2 p-8'>
+          <div className="hidden lg:block md:absolute inset-0 bg-black opacity-20 w-1/2 h-2/3 top-8"></div>
+          <div className='static md:absolute lg:left-14 lg:w-1/2 p-8'>
             <h1 className="text-white font-extrabold text-5xl p-8">
                 Enjoy your life with our comfortable cars.
             </h1>
