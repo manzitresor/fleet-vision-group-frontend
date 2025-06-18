@@ -18,7 +18,6 @@ export default function Navbar() {
             <li className="hover:text-main-orange cursor-pointer">Booking</li>
             <li className="hover:text-main-orange cursor-pointer">Cars</li>
             <li className="hover:text-main-orange cursor-pointer">Contacts</li>
-            <li className="">Contacts</li>
           </ul>
           <div className="flex items-center gap-3">
             <ThemeToggle />
