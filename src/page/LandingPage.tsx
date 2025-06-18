@@ -1,4 +1,5 @@
 import Aboutsection from "./Aboutsection";
+import CarListSection from "./CarListSection";
 import HeroSection from "./HeroSection";
 
 export default function LandingPage() {
@@ -6,6 +7,7 @@ export default function LandingPage() {
     <>
      <HeroSection />
      <Aboutsection/>
+     <CarListSection/>
     </>
   )
 }
