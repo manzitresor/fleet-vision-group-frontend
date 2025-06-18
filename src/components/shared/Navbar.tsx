@@ -4,7 +4,7 @@ import { ThemeToggle } from "../theme-toggle";
 
 export default function Navbar() {
   return (
-    <div className="grid grid-cols-5">
+    <div className="hidden lg:grid grid-cols-5">
         <div className="col-span-2 bg-black px-3 py-3">
           <h1 className="text-main-orange font-bold text-xl flex items-center gap-x-1">
             <FaCar className="text-white text-3xl"/>
