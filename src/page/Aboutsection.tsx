@@ -1,8 +1,8 @@
 import car from '../assets/Rectangle 5.svg'
 export default function Aboutsection() {
   return (
-    <div className="h-screen bg-gray-50 py-12">
-      <div className="flex flex-col items-center justify-center ">
+    <div className="h-screen py-12">
+      <div className="flex flex-col items-center justify-center mt-10 lg:mt-0">
         <h4 className="text-3xl">About us</h4>
         <hr className="w-31 h-px my-3 bg-main-orange border-0"></hr>
       </div>
