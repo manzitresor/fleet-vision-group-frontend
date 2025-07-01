@@ -1,5 +1,6 @@
 import Aboutsection from "./Aboutsection";
 import CarListSection from "./CarListSection";
+import ContactSection from "./ContactSection";
 import HeroSection from "./HeroSection";
 import TestimonialSection from "./TestimonialSection";
 
@@ -10,6 +11,7 @@ export default function LandingPage() {
      <Aboutsection/>
      <CarListSection/>
      <TestimonialSection/>
+     <ContactSection/>
     </>
   )
 }
