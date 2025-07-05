@@ -31,6 +31,6 @@ export default function ContactSection() {
           </form>
           <img src={withKeys} alt="with keys" className='w-60 h-auto'/>
         </div>
-      </div>
+    </div>
   )
 }
