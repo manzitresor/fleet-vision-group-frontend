@@ -1,11 +1,13 @@
+import Navbar from "./components/shared/Navbar"
+import { ThemeProvider } from "./components/theme-provider"
+import LandingPage from "./page/LandingPage"
 
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    </>
+    <ThemeProvider defaultTheme="system" storageKey="fleet-vision-theme">
+        <Navbar/>
+        <LandingPage/>
+    </ThemeProvider>
   )
 }
 

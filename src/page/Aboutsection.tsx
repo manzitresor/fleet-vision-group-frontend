@@ -1,0 +1,25 @@
+import car from '../assets/Rectangle 5.svg'
+export default function Aboutsection() {
+  return (
+    <div className="h-screen py-12">
+      <div className="flex flex-col items-center justify-center mt-10 lg:mt-0">
+        <h4 className="text-3xl">About us</h4>
+        <hr className="w-31 h-px my-3 bg-main-orange border-0"></hr>
+      </div>
+      <div className='flex flex-col mx-4 gap-5 mt-5 lg:mx-48 lg:flex-row'>
+          <div className='w-full lg:w-1/2 h-56'>
+            <img src={car} alt="car" className='w-full h-full object-cover'/>
+          </div>
+          <div className='w-full lg:w-2/3 h-96'>
+              <p>
+                We are a specialized team committed to providing reliable car rental services. One of the advantages of renting a car from us is offering competitive and transparent prices.
+                By providing services such as comprehensive insurance ......
+              </p>
+              <span className="text-main-orange">
+                Read more 
+              </span>
+          </div>
+      </div>
+    </div>
+  )
+}
